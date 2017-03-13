@@ -1,0 +1,37 @@
+##########################################################
+Permission changes from API version 15 to 16
+##########################################################
+ADDED:
+	PERMISSION:                         android.permission.REMOTE_AUDIO_PLAYBACK 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:                         android.permission.READ_EXTERNAL_STORAGE 	 OF_LEVEL:            normal   OF_TYPE:    core
+	PERMISSION:                com.android.launcher.permission.PRELOAD_WORKSPACE 	 OF_LEVEL: signatureOrSystem   OF_TYPE: package
+	PERMISSION:                           android.permission.SET_KEYBOARD_LAYOUT 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:                      android.permission.SET_SCREEN_COMPATIBILITY 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:                                   android.permission.SERIAL_PORT 	 OF_LEVEL:            normal   OF_TYPE:    core
+	PERMISSION:                    android.permission.BIND_ACCESSIBILITY_SERVICE 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:                com.android.permission.WHITELIST_BLUETOOTH_DEVICE 	 OF_LEVEL:         signature   OF_TYPE: package
+	PERMISSION:                                               ti.permission.FMRX 	 OF_LEVEL:         dangerous   OF_TYPE: package
+	PERMISSION:                            android.permission.START_ANY_ACTIVITY 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:                      android.permission.GRANT_REVOKE_PERMISSIONS 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:                                android.permission.WRITE_CALL_LOG 	 OF_LEVEL:         dangerous   OF_TYPE:    core
+	PERMISSION:                                 android.permission.READ_CALL_LOG 	 OF_LEVEL:         dangerous   OF_TYPE:    core
+	PERMISSION:                                   android.permission.UPDATE_LOCK 	 OF_LEVEL: signatureOrSystem   OF_TYPE:    core
+	PERMISSION:                                         ti.permission.FMRX_ADMIN 	 OF_LEVEL:         dangerous   OF_TYPE: package
+	PERMISSION:           android.permission.ACCESS_CONTENT_PROVIDERS_EXTERNALLY 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:             android.permission.MODIFY_APPWIDGET_BIND_PERMISSIONS 	 OF_LEVEL: signatureOrSystem   OF_TYPE:    core
+	PERMISSION:                            android.permission.GET_DETAILED_TASKS 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:                          android.permission.READ_CELL_BROADCASTS 	 OF_LEVEL:         dangerous   OF_TYPE:    core
+	PERMISSION:                           com.android.permission.HANDOVER_STATUS 	 OF_LEVEL:         signature   OF_TYPE: package
+--------------------------------------------
+REMOVED:
+--------------------------------------------
+CHANGED_LEVEL:
+	PERMISSION:                                     android.permission.READ_LOGS    OF_TYPE:    core 	 FROM_LEVEL:         dangerous 	 TO_LEVEL: signatureOrSystem
+	PERMISSION:                           android.permission.SET_ANIMATION_SCALE    OF_TYPE:    core 	 FROM_LEVEL:         dangerous 	 TO_LEVEL: signatureOrSystem
+	PERMISSION:                             android.permission.SET_PROCESS_LIMIT    OF_TYPE:    core 	 FROM_LEVEL:         dangerous 	 TO_LEVEL: signatureOrSystem
+	PERMISSION:                                 android.permission.SET_DEBUG_APP    OF_TYPE:    core 	 FROM_LEVEL:         dangerous 	 TO_LEVEL: signatureOrSystem
+	PERMISSION:                   android.permission.SIGNAL_PERSISTENT_PROCESSES    OF_TYPE:    core 	 FROM_LEVEL:         dangerous 	 TO_LEVEL: signatureOrSystem
+	PERMISSION:                             android.permission.SET_ALWAYS_FINISH    OF_TYPE:    core 	 FROM_LEVEL:         dangerous 	 TO_LEVEL: signatureOrSystem
+--------------------------------------------
+CHANGED_MANIFEST_TYPE:
+--------------------------------------------

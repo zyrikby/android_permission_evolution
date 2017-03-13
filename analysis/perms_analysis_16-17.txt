@@ -1,0 +1,47 @@
+##########################################################
+Permission changes from API version 16 to 17
+##########################################################
+ADDED:
+	PERMISSION:                  android.permission.RECEIVE_DATA_ACTIVITY_CHANGE 	 OF_LEVEL: signatureOrSystem   OF_TYPE:    core
+	PERMISSION:                    android.permission.INTERACT_ACROSS_USERS_FULL 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:                              android.permission.READ_DREAM_STATE 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:                                 android.permission.NET_TUNNELING 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:                               android.permission.BLUETOOTH_STACK 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:                        android.permission.CONFIGURE_WIFI_DISPLAY 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:                com.android.gallery3d.permission.GALLERY_PROVIDER 	 OF_LEVEL: signatureOrSystem   OF_TYPE: package
+	PERMISSION:                                  android.permission.MANAGE_USERS 	 OF_LEVEL: signatureOrSystem   OF_TYPE:    core
+	PERMISSION:                             android.permission.WRITE_DREAM_STATE 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:                                 android.permission.FREEZE_SCREEN 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:                          android.permission.RETRIEVE_WINDOW_INFO 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:                com.android.gallery3d.filtershow.permission.WRITE 	 OF_LEVEL:         signature   OF_TYPE: package
+	PERMISSION:                         android.permission.BIND_DIRECTORY_SEARCH 	 OF_LEVEL: signatureOrSystem   OF_TYPE:    core
+	PERMISSION:                 com.android.gallery3d.filtershow.permission.READ 	 OF_LEVEL:         signature   OF_TYPE: package
+	PERMISSION:                                 android.permission.FILTER_EVENTS 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:                         android.permission.INTERACT_ACROSS_USERS 	 OF_LEVEL: signatureOrSystem   OF_TYPE:    core
+	PERMISSION:                   android.permission.ACCESS_ALL_EXTERNAL_STORAGE 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:                       android.permission.BIND_KEYGUARD_APPWIDGET 	 OF_LEVEL: signatureOrSystem   OF_TYPE:    core
+	PERMISSION:                               android.permission.MAGNIFY_DISPLAY 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:                          android.permission.CONTROL_WIFI_DISPLAY 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:                android.permission.TEMPORARY_ENABLE_ACCESSIBILITY 	 OF_LEVEL:         signature   OF_TYPE:    core
+--------------------------------------------
+REMOVED:
+--------------------------------------------
+CHANGED_LEVEL:
+	PERMISSION:                          android.permission.CHANGE_CONFIGURATION    OF_TYPE:    core 	 FROM_LEVEL:         dangerous 	 TO_LEVEL: signatureOrSystem
+	PERMISSION:                 com.android.launcher.permission.INSTALL_SHORTCUT    OF_TYPE: package 	 FROM_LEVEL:            normal 	 TO_LEVEL:         dangerous
+	PERMISSION:                                 android.permission.SET_TIME_ZONE    OF_TYPE:    core 	 FROM_LEVEL:         dangerous 	 TO_LEVEL:            normal
+	PERMISSION:                           android.permission.WRITE_SYNC_SETTINGS    OF_TYPE:    core 	 FROM_LEVEL:         dangerous 	 TO_LEVEL:            normal
+	PERMISSION:                                     android.permission.WAKE_LOCK    OF_TYPE:    core 	 FROM_LEVEL:         dangerous 	 TO_LEVEL:            normal
+	PERMISSION:                      android.permission.MOUNT_FORMAT_FILESYSTEMS    OF_TYPE:    core 	 FROM_LEVEL:         dangerous 	 TO_LEVEL: signatureOrSystem
+	PERMISSION:                                android.permission.WRITE_SETTINGS    OF_TYPE:    core 	 FROM_LEVEL:         dangerous 	 TO_LEVEL:            normal
+	PERMISSION:                         android.permission.MODIFY_AUDIO_SETTINGS    OF_TYPE:    core 	 FROM_LEVEL:         dangerous 	 TO_LEVEL:            normal
+	PERMISSION:                                   android.permission.SERIAL_PORT    OF_TYPE:    core 	 FROM_LEVEL:            normal 	 TO_LEVEL: signatureOrSystem
+	PERMISSION:                     android.permission.MOUNT_UNMOUNT_FILESYSTEMS    OF_TYPE:    core 	 FROM_LEVEL:         dangerous 	 TO_LEVEL: signatureOrSystem
+	PERMISSION:                                 android.permission.BATTERY_STATS    OF_TYPE:    core 	 FROM_LEVEL:            normal 	 TO_LEVEL:         dangerous
+	PERMISSION:                          android.permission.CHANGE_NETWORK_STATE    OF_TYPE:    core 	 FROM_LEVEL:         dangerous 	 TO_LEVEL:            normal
+	PERMISSION:               com.android.launcher.permission.UNINSTALL_SHORTCUT    OF_TYPE: package 	 FROM_LEVEL:            normal 	 TO_LEVEL:         dangerous
+	PERMISSION:                           android.permission.PERSISTENT_ACTIVITY    OF_TYPE:    core 	 FROM_LEVEL:         dangerous 	 TO_LEVEL:            normal
+	PERMISSION:                                 android.permission.REORDER_TASKS    OF_TYPE:    core 	 FROM_LEVEL:         dangerous 	 TO_LEVEL:            normal
+--------------------------------------------
+CHANGED_MANIFEST_TYPE:
+--------------------------------------------

@@ -1,0 +1,19 @@
+##########################################################
+Permission changes from API version 24 to 25
+##########################################################
+ADDED:
+	PERMISSION:                       com.android.ims.permission.PRESENCE_ACCESS 	 OF_LEVEL: signatureOrSystem   OF_TYPE: package
+	PERMISSION:                    com.android.ims.rcs.permission.STATUS_CHANGED 	 OF_LEVEL: signatureOrSystem   OF_TYPE: package
+	PERMISSION:                  android.permission.CONFIGURE_DISPLAY_COLOR_MODE 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:          android.permission.CONNECTIVITY_USE_RESTRICTED_NETWORKS 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:                    com.android.rcs.eab.permission.READ_WRITE_EAB 	 OF_LEVEL: signatureOrSystem   OF_TYPE: package
+--------------------------------------------
+REMOVED:
+	PERMISSION:    com.android.launcher3.permission.RECEIVE_FIRST_LOAD_BROADCAST 	 OF_LEVEL: signatureOrSystem   OF_TYPE: package
+	PERMISSION:       com.android.launcher3.permission.RECEIVE_LAUNCH_BROADCASTS 	 OF_LEVEL:         signature   OF_TYPE: package
+	PERMISSION:             android.permission.CONFIGURE_DISPLAY_COLOR_TRANSFORM 	 OF_LEVEL:         signature   OF_TYPE:    core
+--------------------------------------------
+CHANGED_LEVEL:
+--------------------------------------------
+CHANGED_MANIFEST_TYPE:
+--------------------------------------------

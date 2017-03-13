@@ -1,0 +1,33 @@
+##########################################################
+Permission changes from API version 7 to 8
+##########################################################
+ADDED:
+	PERMISSION:                                   android.permission.ASEC_RENAME 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:                           android.permission.COPY_PROTECTED_DATA 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:                            android.permission.ASEC_MOUNT_UNMOUNT 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:                                      android.permission.SET_TIME 	 OF_LEVEL: signatureOrSystem   OF_TYPE:    core
+	PERMISSION:                              android.permission.SEE_ALL_EXTERNAL 	 OF_LEVEL:            normal   OF_TYPE: package
+	PERMISSION:                                  android.permission.MOVE_PACKAGE 	 OF_LEVEL: signatureOrSystem   OF_TYPE:    core
+	PERMISSION:                                  android.permission.ASEC_DESTROY 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:                             android.permission.BIND_DEVICE_ADMIN 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:      android.intent.category.MASTER_CLEAR.permission.C2D_MESSAGE 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:                           android.permission.FORCE_STOP_PACKAGES 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:                                   android.permission.ASEC_CREATE 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:                                   android.permission.ASEC_ACCESS 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:                     android.permission.KILL_BACKGROUND_PROCESSES 	 OF_LEVEL:            normal   OF_TYPE:    core
+--------------------------------------------
+REMOVED:
+	PERMISSION:                                   android.permission.BACKUP_DATA 	 OF_LEVEL: signatureOrSystem   OF_TYPE:    core
+	PERMISSION:     com.android.globalsearch.permission.RECEIVE_GLOBALSEARCH_LOG 	 OF_LEVEL: signatureOrSystem   OF_TYPE: package
+--------------------------------------------
+CHANGED_LEVEL:
+	PERMISSION:                       android.permission.ACCESS_CACHE_FILESYSTEM    OF_TYPE: package 	 FROM_LEVEL:         signature 	 TO_LEVEL: signatureOrSystem
+	PERMISSION:                               android.permission.WRITE_GSERVICES    OF_TYPE:    core 	 FROM_LEVEL:         signature 	 TO_LEVEL: signatureOrSystem
+	PERMISSION:                    android.permission.SET_PREFERRED_APPLICATIONS    OF_TYPE:    core 	 FROM_LEVEL:         dangerous 	 TO_LEVEL:         signature
+	PERMISSION:                                        android.permission.REBOOT    OF_TYPE:    core 	 FROM_LEVEL:         signature 	 TO_LEVEL: signatureOrSystem
+	PERMISSION:                            android.permission.DELETE_CACHE_FILES    OF_TYPE:    core 	 FROM_LEVEL:         signature 	 TO_LEVEL: signatureOrSystem
+	PERMISSION:                              android.permission.RESTART_PACKAGES    OF_TYPE:    core 	 FROM_LEVEL:         dangerous 	 TO_LEVEL:            normal
+--------------------------------------------
+CHANGED_MANIFEST_TYPE:
+	PERMISSION:                       android.permission.ACCESS_CACHE_FILESYSTEM   OF_LEVEL:         signature 	 FROM_TYPE: package 	 TO_TYPE:    core
+--------------------------------------------

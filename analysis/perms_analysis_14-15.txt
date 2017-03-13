@@ -1,0 +1,15 @@
+##########################################################
+Permission changes from API version 14 to 15
+##########################################################
+ADDED:
+	PERMISSION:                            android.permission.ACCESS_WIMAX_STATE 	 OF_LEVEL:            normal   OF_TYPE:    core
+	PERMISSION:                  android.permission.ALLOW_ANY_CODEC_FOR_PLAYBACK 	 OF_LEVEL: signatureOrSystem   OF_TYPE:    core
+	PERMISSION:                            android.permission.CHANGE_WIMAX_STATE 	 OF_LEVEL:         dangerous   OF_TYPE:    core
+--------------------------------------------
+REMOVED:
+	PERMISSION:                           com.android.nfc.permission.NFCEE_ADMIN 	 OF_LEVEL:         signature   OF_TYPE: package
+--------------------------------------------
+CHANGED_LEVEL:
+--------------------------------------------
+CHANGED_MANIFEST_TYPE:
+--------------------------------------------

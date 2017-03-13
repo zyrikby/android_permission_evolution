@@ -1,0 +1,83 @@
+##########################################################
+Permission changes from API version 19 to 21
+##########################################################
+ADDED:
+	PERMISSION:                              android.permission.OEM_UNLOCK_STATE 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:                                 android.permission.USER_ACTIVITY 	 OF_LEVEL: signatureOrSystem   OF_TYPE:    core
+	PERMISSION:                           android.permission.NFC_HANDOVER_STATUS 	 OF_LEVEL: signatureOrSystem   OF_TYPE:    core
+	PERMISSION:                        android.permission.READ_SEARCH_INDEXABLES 	 OF_LEVEL: signatureOrSystem   OF_TYPE:    core
+	PERMISSION:                       android.permission.BIND_CONNECTION_SERVICE 	 OF_LEVEL: signatureOrSystem   OF_TYPE:    core
+	PERMISSION:                                  android.permission.BODY_SENSORS 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:                          android.permission.MODIFY_AUDIO_ROUTING 	 OF_LEVEL: signatureOrSystem   OF_TYPE:    core
+	PERMISSION:                              android.permission.BIND_TRUST_AGENT 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:                          android.permission.PROCESS_CALLLOG_INFO 	 OF_LEVEL: signatureOrSystem   OF_TYPE: package
+	PERMISSION:                            android.permission.BIND_DREAM_SERVICE 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:                           android.permission.BIND_INCALL_SERVICE 	 OF_LEVEL: signatureOrSystem   OF_TYPE:    core
+	PERMISSION:                      android.permission.START_TASKS_FROM_RECENTS 	 OF_LEVEL: signatureOrSystem   OF_TYPE:    core
+	PERMISSION:                       android.permission.REMOVE_DRM_CERTIFICATES 	 OF_LEVEL: signatureOrSystem   OF_TYPE:    core
+	PERMISSION:                                android.permission.TRUST_LISTENER 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:                                 android.permission.BIND_TV_INPUT 	 OF_LEVEL: signatureOrSystem   OF_TYPE:    core
+	PERMISSION:com.android.server.telecom.permission.REGISTER_CONNECTION_MANAGER 	 OF_LEVEL:         signature   OF_TYPE: package
+	PERMISSION:                          android.permission.READ_WIFI_CREDENTIAL 	 OF_LEVEL: signatureOrSystem   OF_TYPE:    core
+	PERMISSION:                  com.android.voicemail.permission.READ_VOICEMAIL 	 OF_LEVEL: signatureOrSystem   OF_TYPE:    core
+	PERMISSION:                           android.permission.PROVIDE_TRUST_AGENT 	 OF_LEVEL: signatureOrSystem   OF_TYPE:    core
+	PERMISSION:                             android.permission.TV_INPUT_HARDWARE 	 OF_LEVEL: signatureOrSystem   OF_TYPE:    core
+	PERMISSION:                     android.permission.CONTROL_INCALL_EXPERIENCE 	 OF_LEVEL: signatureOrSystem   OF_TYPE:    core
+	PERMISSION:                         android.permission.READ_INSTALL_SESSIONS 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:                                      android.permission.RECOVERY 	 OF_LEVEL: signatureOrSystem   OF_TYPE:    core
+	PERMISSION:                                      android.permission.HDMI_CEC 	 OF_LEVEL: signatureOrSystem   OF_TYPE:    core
+	PERMISSION:                                android.permission.SCORE_NETWORKS 	 OF_LEVEL: signatureOrSystem   OF_TYPE:    core
+	PERMISSION:               android.permission.BIND_CONDITION_PROVIDER_SERVICE 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:                       android.permission.MANAGE_MEDIA_PROJECTION 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:    com.android.launcher3.permission.RECEIVE_FIRST_LOAD_BROADCAST 	 OF_LEVEL: signatureOrSystem   OF_TYPE: package
+	PERMISSION:                       android.permission.MANAGE_VOICE_KEYPHRASES 	 OF_LEVEL: signatureOrSystem   OF_TYPE:    core
+	PERMISSION:                              android.permission.BIND_JOB_SERVICE 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:                 org.chromium.chrome.shell.permission.C2D_MESSAGE 	 OF_LEVEL:         signature   OF_TYPE: package
+	PERMISSION:                                   android.permission.FRAME_STATS 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:          com.android.providers.tv.permission.ACCESS_ALL_EPG_DATA 	 OF_LEVEL: signatureOrSystem   OF_TYPE: package
+	PERMISSION:                      android.permission.READ_PRECISE_PHONE_STATE 	 OF_LEVEL: signatureOrSystem   OF_TYPE:    core
+	PERMISSION:                      android.permission.BROADCAST_SCORE_NETWORKS 	 OF_LEVEL: signatureOrSystem   OF_TYPE:    core
+	PERMISSION:                com.android.providers.tv.permission.READ_EPG_DATA 	 OF_LEVEL:         dangerous   OF_TYPE: package
+	PERMISSION:                       android.permission.ACCESS_DRM_CERTIFICATES 	 OF_LEVEL: signatureOrSystem   OF_TYPE:    core
+	PERMISSION:                          android.permission.ACCESS_INPUT_FLINGER 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:                                android.permission.REAL_GET_TASKS 	 OF_LEVEL: signatureOrSystem   OF_TYPE:    core
+	PERMISSION:                         android.permission.RETRIEVE_WINDOW_TOKEN 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:                              android.permission.CAPTURE_TV_INPUT 	 OF_LEVEL: signatureOrSystem   OF_TYPE:    core
+	PERMISSION:                        android.permission.BIND_VOICE_INTERACTION 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:com.android.server.telecom.permission.REGISTER_PROVIDER_OR_SUBSCRIPTION 	 OF_LEVEL:         signature   OF_TYPE: package
+	PERMISSION:                         android.permission.SET_INPUT_CALIBRATION 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:                                 android.permission.BLUETOOTH_MAP 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:                           android.permission.BIND_REMOTE_DISPLAY 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:                 com.android.voicemail.permission.WRITE_VOICEMAIL 	 OF_LEVEL: signatureOrSystem   OF_TYPE:    core
+	PERMISSION:                         android.permission.RECEIVE_BLUETOOTH_MAP 	 OF_LEVEL: signatureOrSystem   OF_TYPE:    core
+	PERMISSION:                        android.permission.BROADCAST_CALLLOG_INFO 	 OF_LEVEL: signatureOrSystem   OF_TYPE: package
+	PERMISSION:               com.android.providers.tv.permission.WRITE_EPG_DATA 	 OF_LEVEL:         dangerous   OF_TYPE: package
+	PERMISSION:                     org.chromium.chrome.shell.permission.SANDBOX 	 OF_LEVEL:         signature   OF_TYPE: package
+	PERMISSION:                      android.permission.MODIFY_PARENTAL_CONTROLS 	 OF_LEVEL: signatureOrSystem   OF_TYPE:    core
+	PERMISSION:      com.android.providers.tv.permission.ACCESS_WATCHED_PROGRAMS 	 OF_LEVEL: signatureOrSystem   OF_TYPE: package
+	PERMISSION:                   android.permission.LAUNCH_TRUST_AGENT_SETTINGS 	 OF_LEVEL: signatureOrSystem   OF_TYPE:    core
+--------------------------------------------
+REMOVED:
+	PERMISSION:                           android.permission.MARK_NETWORK_SOCKET 	 OF_LEVEL: signatureOrSystem   OF_TYPE:    core
+	PERMISSION:                           com.android.permission.HANDOVER_STATUS 	 OF_LEVEL:         signature   OF_TYPE: package
+	PERMISSION:        com.android.voicemail.permission.READ_WRITE_ALL_VOICEMAIL 	 OF_LEVEL: signatureOrSystem   OF_TYPE: package
+	PERMISSION:               com.android.launcher3.permission.PRELOAD_WORKSPACE 	 OF_LEVEL: signatureOrSystem   OF_TYPE: package
+	PERMISSION:                                               ti.permission.FMRX 	 OF_LEVEL:         dangerous   OF_TYPE: package
+	PERMISSION:                          android.permission.RETRIEVE_WINDOW_INFO 	 OF_LEVEL:         signature   OF_TYPE:    core
+	PERMISSION:                             android.permission.BIND_CALL_SERVICE 	 OF_LEVEL: signatureOrSystem   OF_TYPE:    core
+	PERMISSION:                                         ti.permission.FMRX_ADMIN 	 OF_LEVEL:         dangerous   OF_TYPE: package
+	PERMISSION:                               android.permission.MAGNIFY_DISPLAY 	 OF_LEVEL:         signature   OF_TYPE:    core
+--------------------------------------------
+CHANGED_LEVEL:
+	PERMISSION:                              android.permission.READ_DREAM_STATE    OF_TYPE:    core 	 FROM_LEVEL:         signature 	 TO_LEVEL: signatureOrSystem
+	PERMISSION:                           android.permission.FORCE_STOP_PACKAGES    OF_TYPE:    core 	 FROM_LEVEL:         signature 	 TO_LEVEL: signatureOrSystem
+	PERMISSION:                              android.permission.MANAGE_DOCUMENTS    OF_TYPE:    core 	 FROM_LEVEL: signatureOrSystem 	 TO_LEVEL:         signature
+	PERMISSION:                             android.permission.WRITE_DREAM_STATE    OF_TYPE:    core 	 FROM_LEVEL:         signature 	 TO_LEVEL: signatureOrSystem
+	PERMISSION:                   com.android.launcher.permission.WRITE_SETTINGS    OF_TYPE: package 	 FROM_LEVEL:            normal 	 TO_LEVEL: signatureOrSystem
+	PERMISSION:                                     android.permission.GET_TASKS    OF_TYPE:    core 	 FROM_LEVEL:         dangerous 	 TO_LEVEL:            normal
+	PERMISSION:                  com.android.launcher3.permission.WRITE_SETTINGS    OF_TYPE: package 	 FROM_LEVEL:            normal 	 TO_LEVEL: signatureOrSystem
+	PERMISSION:                        android.permission.MANAGE_ACTIVITY_STACKS    OF_TYPE:    core 	 FROM_LEVEL:         signature 	 TO_LEVEL: signatureOrSystem
+	PERMISSION:                           android.permission.PACKAGE_USAGE_STATS    OF_TYPE:    core 	 FROM_LEVEL: signatureOrSystem 	 TO_LEVEL:         signature
+--------------------------------------------
+CHANGED_MANIFEST_TYPE:
+--------------------------------------------
