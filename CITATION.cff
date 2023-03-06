@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite our paper as below."
+title: "android_permission_evolution"
+url: "https://github.com/zyrikby/android_permission_evolution"
+preferred-citation:
+  title: "Small Changes, Big Changes: An Updated View on the Android Permission System"
+  type: conference-paper
+  authors:
+  - family-names: "Zhauniarovich"
+    given-names: "Yury"
+  - family-names: "Gadyatskaya"
+    given-names: "Olga"
+  conference:
+    name: "International Symposium on Research in Attacks, Intrusions and Defenses"
+  doi: "10.1007/978-3-319-45719-2_16"
+  isbn: "978-3-319-45719-2"
+  start: 346 # First page number
+  end: 367 # Last page number
+  year: 2016
