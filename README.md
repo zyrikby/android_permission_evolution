@@ -62,9 +62,7 @@ following bibtex reference to cite our paper:
 
 ## Additional resources
 * [**Presentation Slides at RAID**][2]
-* [**Presentation Slides at the University of Luxembourg**][3]
 
 
-[1]:http://www.zhauniarovich.com/files/pubs/SmallChangesBigChanges_Zhauniarovich2016.pdf
-[2]:http://www.zhauniarovich.com/files/talks/SmallChangesBigChanges_RAID2016.pdf
-[3]:http://www.zhauniarovich.com/files/talks/SmallChangesBigChanges_Luxembourg2017.pdf
+[1]:https://zhauniarovich.com/publication/2016/small-changes-big-changes-zhauniarovich-2016/small-changes-big-changes-zhauniarovich-2016.pdf
+[2]:https://zhauniarovich.com/publication/2016/small-changes-big-changes-zhauniarovich-2016/small-changes-big-changes-zhauniarovich-2016-slides.pdf
